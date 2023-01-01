@@ -1,0 +1,153 @@
+
+/* https://www.yamaha-motor.eu/nl/nl/#/ */
+
+body {
+  background-image: url("/7cd118e24880a8ac57d647834cd04783.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color:cornflowerblue;
+}
+
+a:visited {
+  color:darkcyan;
+}
+
+header {
+  font-size: 2em;
+}
+
+footer{
+background-color: darkcyan;
+box-sizing: border-box;
+height: 10em;
+}
+
+/* index.html specific classes */
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 3fr;
+}
+
+.banner h2 {
+    color:darkcyan;
+    text-align:right;
+    -webkit-text-stroke: 2px black;   
+    font-family: sans; color:rgb(209, 197, 204);
+  }
+
+.banner {
+  background-image: url("/motor2.jpg");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+ background-size: cover;
+ height: 18em;
+}
+
+.banner2 {
+ text-align: center;
+font-size: large;
+background-color:aliceblue;
+height: em;
+}
+
+.picture1 {
+  background-color: aliceblue;
+  box-sizing:border-box ;
+  border-style: solid;
+  padding: 3px;
+  margin: 7%;
+  width: 350px;
+  }
+
+  h2 {
+    color:darkcyan;
+  }
+  
+
+/* blog specific */
+
+h1 {
+  text-align: center;
+}
+
+.blogpost {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 12px;
+}
+
+.card {
+  background-color: aliceblue;
+  border-style: solid;
+  padding: 2%;
+  margin: 2%;
+  width: 300px;
+}
+
+.card2 {
+  background-color: aliceblue;
+  border-style: solid;
+  padding: 2%;
+  margin: 2%;
+  width: 450px;
+  order: -1;
+  align-self: flex-end;
+}
+
+/* contact page specific */
+
+form {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 5px;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  padding: 15px 115px;
+  background-color:aliceblue;
+}
+
+.button{
+  background-color:darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.nav {
+  box-sizing: border-box; 
+  background-color: white;
+  display: grid;
+  width: auto;
+  height: 70px;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ text-align: justify;
+}
+
+.banner2 {
+  background-size: cover;
+  width: 100%;
+}
+
+
